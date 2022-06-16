@@ -17,6 +17,7 @@ export default function Weather() {
     }, [])
 
     return(
+        <center>
         <div class="message-window">
             <div class="message-area">
                 <div class="content">
@@ -30,11 +31,12 @@ export default function Weather() {
                     <div class="background-black">
                     </div>
                     <div class="text-area">
-                        <div>{temp}</div>
-                        <div>モルモット君？</div>
+                        <div>The temperature</div>
+                        <div>in bodø is {temp}!! </div>
                     </div>
                 </div>
             </div>
         </div>
+        </center>
     )
 }
