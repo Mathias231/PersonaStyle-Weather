@@ -8,7 +8,7 @@ import Weather from './API/Weather';
 function App() {
   return (
     <div className="App">
-      <h2>Weather</h2>
+      <h2>Weather in bodø</h2>
       <Weather />
     </div>
   );
